@@ -1,0 +1,23 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsdom": "^21.1.1",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "progress-estimator": "^0.3.0",
+    "youtube-dl-exec": "^2.4.0"
+  }
+}
